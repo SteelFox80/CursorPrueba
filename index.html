@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PeluPaws — Shampoo suave para perros</title>
+    <meta name="description" content="Shampoo minimalista y suave para perros. Fórmula hipoalergénica con ingredientes naturales.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/favicon.ico">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img src="/assets/logo.svg" alt="PeluPaws" class="logo">
+          <span class="brand-name">PeluPaws</span>
+        </div>
+        <nav class="nav">
+          <a href="#beneficios">Beneficios</a>
+          <a href="#ingredientes">Ingredientes</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-content">
+          <h1>Shampoo suave para perros con piel sensible</h1>
+          <p>Fórmula hipoalergénica, pH balanceado y aromas sutiles. Limpieza efectiva sin lágrimas, sin sulfatos agresivos.</p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="mailto:contacto@pelupaws.com?subject=Lista%20de%20espera%20PeluPaws&body=Hola%2C%20quiero%20sumarme%20a%20la%20lista%20de%20espera%20de%20PeluPaws.%20">
+              Únete a la lista de espera
+            </a>
+            <a class="btn btn-secondary" href="#beneficios">Saber más</a>
+          </div>
+          <div class="trust">
+            <span class="pill">Hipoalergénico</span>
+            <span class="pill">pH canino</span>
+            <span class="pill">Sin parabenos</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="bottle"></div>
+        </div>
+      </section>
+
+      <section id="beneficios" class="section container">
+        <h2>Beneficios</h2>
+        <div class="grid three">
+          <div class="card">
+            <h3>Limpieza delicada</h3>
+            <p>Remueve suciedad y olores sin resecar el pelaje ni irritar la piel.</p>
+          </div>
+          <div class="card">
+            <h3>Ingredientes de confianza</h3>
+            <p>Extractos de avena coloidal y aloe vera para calmar y nutrir.</p>
+          </div>
+          <div class="card">
+            <h3>Aroma sutil</h3>
+            <p>Notas suaves y frescas diseñadas para el olfato canino.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="ingredientes" class="section container">
+        <h2>Ingredientes clave</h2>
+        <ul class="ingredients">
+          <li><strong>Avena coloidal</strong>: ayuda a calmar irritaciones.</li>
+          <li><strong>Aloe vera</strong>: hidrata y protege la piel.</li>
+          <li><strong>Glicerina vegetal</strong>: retiene la humedad natural.</li>
+          <li><strong>Tensioactivos suaves</strong>: derivados del coco, libres de sulfatos agresivos.</li>
+        </ul>
+      </section>
+
+      <section id="faq" class="section container">
+        <h2>Preguntas frecuentes</h2>
+        <details class="faq-item">
+          <summary>¿Para qué tipos de pelaje es adecuado?</summary>
+          <p>Apto para todo tipo de pelaje y razas; especialmente recomendado para piel sensible.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Cada cuánto debo usarlo?</summary>
+          <p>Depende del estilo de vida de tu perro. En general, cada 2–4 semanas es suficiente.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Tiene perfume fuerte?</summary>
+          <p>No. Usamos aromas sutiles y en dosis bajas para no saturar el olfato canino.</p>
+        </details>
+      </section>
+
+      <section class="cta-final container">
+        <h2>Próximamente disponible</h2>
+        <p>Estamos ultimando detalles. Sé de los primeros en recibir novedades.</p>
+        <a class="btn btn-primary" href="mailto:contacto@pelupaws.com?subject=Lista%20de%20espera%20PeluPaws">Unirme ahora</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> PeluPaws</span>
+        <a href="mailto:contacto@pelupaws.com" class="footer-link">Contacto</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+
